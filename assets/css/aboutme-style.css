@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+@font-face{
+    font-family: Effra;
+    src: url("../fonts/Effra/Effra.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+	font-family: Effra;
+	text-align: center;
+    line-height: 2;
+}
+
+hr{
+    max-width: 100px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.movies-item p{
+    display: inline-block;
+    font-style: italic;
+}
+
+.movies-item a{
+    display: inline-block;
+}
+
+.happy-mood , .sad-mood{
+	display: inline-block;
+	margin: 5px 15px;
+}
+
+.happy-mood h3{
+	color: green;
+}
+
+.happy-mood img , .sad-mood img{
+	border:1px solid #000;
+}
+
+.sad-mood h3{
+	color: red;
+}
+
+.css-validator , .xhtml-validator{
+	display: inline-block;
+	margin: 5px 8px;
+}
+
